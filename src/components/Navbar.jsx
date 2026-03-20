@@ -60,12 +60,12 @@ const Navbar = () => {
                   </NavLink>
                </ul>
             </div>
-            <div className="btn btn-ghost text-xl">
+            <NavLink to="/" className="btn btn-ghost text-xl">
                <img className="h-10 w-10" src={titleLogo} alt="AppNova Logo" />
                <p className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent font-bold">
                   AppNova
                </p>
-            </div>
+            </NavLink>
          </div>
          <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1">
@@ -102,7 +102,11 @@ const Navbar = () => {
             </ul>
          </div>
          <div className="navbar-end">
-            <a className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] font-bold text-white">
+            <a
+               href="https://github.com/mohiuddinahmed121"
+               target="_blank"
+               className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] font-bold text-white"
+            >
                <FaGithub />
                Contribute
             </a>
