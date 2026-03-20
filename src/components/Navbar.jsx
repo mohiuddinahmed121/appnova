@@ -1,4 +1,6 @@
-import React from "react";
+import { NavLink } from "react-router-dom";
+import titleLogo from "../assets/logo.png";
+import { FaGithub } from "react-icons/fa";
 
 const Navbar = () => {
    return (
@@ -26,52 +28,84 @@ const Navbar = () => {
                   tabIndex="-1"
                   className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
                >
-                  <li>
-                     <a>Item 1</a>
-                  </li>
-                  <li>
-                     <a>Parent</a>
-                     <ul className="p-2">
-                        <li>
-                           <a>Submenu 1</a>
-                        </li>
-                        <li>
-                           <a>Submenu 2</a>
-                        </li>
-                     </ul>
-                  </li>
-                  <li>
-                     <a>Item 3</a>
-                  </li>
+                  <NavLink
+                     className={({ isActive }) =>
+                        isActive
+                           ? "bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent font-bold p-2 border-b-2 border-[#632EE3]"
+                           : "font-bold hover:bg-gray-200 rounded-lg p-2"
+                     }
+                     to="/"
+                  >
+                     Home
+                  </NavLink>
+                  <NavLink
+                     className={({ isActive }) =>
+                        isActive
+                           ? "bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent font-bold  p-2 border-b-2 border-[#632EE3]"
+                           : "font-bold hover:bg-gray-200 rounded-lg p-2"
+                     }
+                     to="/app"
+                  >
+                     Apps
+                  </NavLink>
+                  <NavLink
+                     className={({ isActive }) =>
+                        isActive
+                           ? "bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent font-bold  p-2 border-b-2 border-[#632EE3]"
+                           : "font-bold hover:bg-gray-200 rounded-lg p-2"
+                     }
+                     to="/installation"
+                  >
+                     Installation
+                  </NavLink>
                </ul>
             </div>
-            <a className="btn btn-ghost text-xl">daisyUI</a>
+            <div className="btn btn-ghost text-xl">
+               <img className="h-10 w-10" src={titleLogo} alt="AppNova Logo" />
+               <p className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent font-bold">
+                  AppNova
+               </p>
+            </div>
          </div>
          <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1">
-               <li>
-                  <a>Item 1</a>
-               </li>
-               <li>
-                  <details>
-                     <summary>Parent</summary>
-                     <ul className="p-2 bg-base-100 w-40 z-1">
-                        <li>
-                           <a>Submenu 1</a>
-                        </li>
-                        <li>
-                           <a>Submenu 2</a>
-                        </li>
-                     </ul>
-                  </details>
-               </li>
-               <li>
-                  <a>Item 3</a>
-               </li>
+               <NavLink
+                  className={({ isActive }) =>
+                     isActive
+                        ? "bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent font-bold p-2 border-b-2 border-[#632EE3]"
+                        : "font-bold hover:bg-gray-200 rounded-lg p-2"
+                  }
+                  to="/"
+               >
+                  Home
+               </NavLink>
+               <NavLink
+                  className={({ isActive }) =>
+                     isActive
+                        ? "bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent font-bold p-2 border-b-2 border-[#632EE3]"
+                        : "font-bold hover:bg-gray-200 rounded-lg p-2"
+                  }
+                  to="/app"
+               >
+                  Apps
+               </NavLink>
+               <NavLink
+                  className={({ isActive }) =>
+                     isActive
+                        ? "bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent font-bold p-2 border-b-2 border-[#632EE3]"
+                        : "font-bold hover:bg-gray-200 rounded-lg p-2"
+                  }
+                  to="/installation"
+               >
+                  Installation
+               </NavLink>
             </ul>
          </div>
          <div className="navbar-end">
-            <a className="btn">Button</a>
+            <a className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] font-bold text-white">
+               <FaGithub />
+               Contribute
+            </a>
          </div>
       </div>
    );
