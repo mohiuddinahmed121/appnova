@@ -4,7 +4,7 @@
       "image": "https://i.ibb.co.com/1tpzSmLg/demo-app-3.webp",
       "title": "ChatFlow",
       "companyName": "NovaTech",
-      "description": "Secure and fast messaging",
+      "description": "ChatFlow is a secure and lightning-fast messaging application designed for seamless communication. Connect with friends, family, and teams using real-time chat, voice messages, and media sharing. With end-to-end encryption and a clean user interface, ChatFlow ensures both privacy and performance for everyday conversations.",
       "size": 45,
       "reviews": 12000,
       "ratingAvg": 4.5,
@@ -22,7 +22,7 @@
       "image": "https://i.ibb.co.com/rKBj0gqm/demo-app-2.webp",
       "title": "BeatBox",
       "companyName": "SoundLab",
-      "description": "Stream your favorite songs",
+      "description": "BeatBox is your ultimate music streaming companion, offering millions of tracks across all genres. Discover new artists, create personalized playlists, and enjoy high-quality audio streaming anytime, anywhere. Its smart recommendation system ensures you always find the perfect soundtrack for your mood.",
       "size": 60,
       "reviews": 9800,
       "ratingAvg": 4.3,
@@ -40,7 +40,7 @@
       "image": "https://i.ibb.co.com/Dfp3VN9Z/demo-app-5.webp",
       "title": "BattleZone",
       "companyName": "GameCore",
-      "description": "Online multiplayer battle game",
+      "description": "BattleZone delivers an intense multiplayer gaming experience with stunning graphics and smooth gameplay. Compete with players worldwide, unlock powerful weapons, and dominate the battlefield. Regular updates and events keep the action fresh and exciting for all players.",
       "size": 120,
       "reviews": 15000,
       "ratingAvg": 4.7,
@@ -58,7 +58,7 @@
       "image": "https://i.ibb.co.com/1tpzSmLg/demo-app-3.webp",
       "title": "ShopEase",
       "companyName": "RetailHub",
-      "description": "Shop anything easily",
+      "description": "ShopEase makes online shopping simple, fast, and enjoyable. Browse thousands of products, compare prices, and enjoy secure checkout with multiple payment options. With personalized recommendations and fast delivery tracking, your shopping experience becomes effortless.",
       "size": 70,
       "reviews": 8700,
       "ratingAvg": 4.2,
@@ -71,12 +71,13 @@
          { "name": "5 star", "count": 2900 }
       ]
    },
+
    {
       "id": 5,
       "image": "https://i.ibb.co.com/1tpzSmLg/demo-app-3.webp",
       "title": "FitTrack",
       "companyName": "HealthPro",
-      "description": "Track your health goals",
+      "description": "FitTrack helps you stay on top of your fitness journey by tracking workouts, calories, and daily activity. Set goals, monitor progress, and get personalized insights to improve your health. Whether you're a beginner or a fitness enthusiast, FitTrack keeps you motivated.",
       "size": 55,
       "reviews": 6200,
       "ratingAvg": 4.4,
@@ -89,12 +90,13 @@
          { "name": "5 star", "count": 2700 }
       ]
    },
+
    {
       "id": 6,
       "image": "https://i.ibb.co.com/1tpzSmLg/demo-app-3.webp",
       "title": "Foodie",
       "companyName": "EatNow",
-      "description": "Order food instantly",
+      "description": "Foodie lets you order your favorite meals from top restaurants in just a few taps. Enjoy fast delivery, live tracking, and exclusive deals. Whether it's breakfast, lunch, or dinner, Foodie brings delicious food right to your doorstep.",
       "size": 65,
       "reviews": 11000,
       "ratingAvg": 4.1,
@@ -107,12 +109,13 @@
          { "name": "5 star", "count": 3900 }
       ]
    },
+
    {
       "id": 7,
       "image": "https://i.ibb.co.com/1tpzSmLg/demo-app-3.webp",
       "title": "LearnHub",
       "companyName": "EduTech",
-      "description": "Learn from anywhere",
+      "description": "LearnHub is an online learning platform offering courses in programming, design, business, and more. Learn at your own pace with expert instructors, interactive lessons, and real-world projects. Perfect for students and professionals alike.",
       "size": 80,
       "reviews": 5400,
       "ratingAvg": 4.6,
@@ -125,12 +128,13 @@
          { "name": "5 star", "count": 3000 }
       ]
    },
+
    {
       "id": 8,
       "image": "https://i.ibb.co.com/1tpzSmLg/demo-app-3.webp",
       "title": "TripMate",
       "companyName": "TravelGo",
-      "description": "Plan trips easily",
+      "description": "TripMate helps you plan and organize your trips with ease. Discover destinations, book accommodations, and create itineraries all in one place. Travel smarter with recommendations and real-time updates.",
       "size": 90,
       "reviews": 7000,
       "ratingAvg": 4.3,
@@ -141,222 +145,6 @@
          { "name": "3 star", "count": 1200 },
          { "name": "4 star", "count": 2200 },
          { "name": "5 star", "count": 2800 }
-      ]
-   },
-   {
-      "id": 9,
-      "image": "https://i.ibb.co.com/1tpzSmLg/demo-app-3.webp",
-      "title": "PaySafe",
-      "companyName": "FinTech Ltd",
-      "description": "Secure digital payments",
-      "size": 50,
-      "reviews": 9500,
-      "ratingAvg": 4.0,
-      "downloads": 55,
-      "ratings": [
-         { "name": "1 star", "count": 1000 },
-         { "name": "2 star", "count": 1200 },
-         { "name": "3 star", "count": 2000 },
-         { "name": "4 star", "count": 2500 },
-         { "name": "5 star", "count": 2800 }
-      ]
-   },
-   {
-      "id": 10,
-      "image": "https://i.ibb.co.com/1tpzSmLg/demo-app-3.webp",
-      "title": "SnapEdit",
-      "companyName": "PhotoLab",
-      "description": "Edit photos like pro",
-      "size": 75,
-      "reviews": 8200,
-      "ratingAvg": 4.5,
-      "downloads": 67,
-      "ratings": [
-         { "name": "1 star", "count": 300 },
-         { "name": "2 star", "count": 400 },
-         { "name": "3 star", "count": 1000 },
-         { "name": "4 star", "count": 2800 },
-         { "name": "5 star", "count": 3700 }
-      ]
-   },
-   {
-      "id": 11,
-      "image": "https://i.ibb.co.com/1tpzSmLg/demo-app-3.webp",
-      "title": "StreamX",
-      "companyName": "MediaHub",
-      "description": "Watch videos anytime",
-      "size": 110,
-      "reviews": 13400,
-      "ratingAvg": 4.4,
-      "downloads": 88,
-      "ratings": [
-         { "name": "1 star", "count": 500 },
-         { "name": "2 star", "count": 700 },
-         { "name": "3 star", "count": 2000 },
-         { "name": "4 star", "count": 4000 },
-         { "name": "5 star", "count": 6200 }
-      ]
-   },
-   {
-      "id": 12,
-      "image": "https://i.ibb.co.com/1tpzSmLg/demo-app-3.webp",
-      "title": "WeatherNow",
-      "companyName": "SkyTech",
-      "description": "Live weather updates",
-      "size": 30,
-      "reviews": 4300,
-      "ratingAvg": 4.2,
-      "downloads": 14,
-      "ratings": [
-         { "name": "1 star", "count": 200 },
-         { "name": "2 star", "count": 300 },
-         { "name": "3 star", "count": 700 },
-         { "name": "4 star", "count": 1500 },
-         { "name": "5 star", "count": 1600 }
-      ]
-   },
-   {
-      "id": 13,
-      "image": "https://i.ibb.co.com/1tpzSmLg/demo-app-3.webp",
-      "title": "NoteMaster",
-      "companyName": "Productive Inc",
-      "description": "Take notes efficiently",
-      "size": 25,
-      "reviews": 5200,
-      "ratingAvg": 4.6,
-      "downloads": 11,
-      "ratings": [
-         { "name": "1 star", "count": 100 },
-         { "name": "2 star", "count": 200 },
-         { "name": "3 star", "count": 600 },
-         { "name": "4 star", "count": 1800 },
-         { "name": "5 star", "count": 2500 }
-      ]
-   },
-   {
-      "id": 14,
-      "image": "https://i.ibb.co.com/1tpzSmLg/demo-app-3.webp",
-      "title": "PlanIt",
-      "companyName": "OrganizeMe",
-      "description": "Manage your schedule",
-      "size": 35,
-      "reviews": 3000,
-      "ratingAvg": 4.1,
-      "downloads": 20,
-      "ratings": [
-         { "name": "1 star", "count": 200 },
-         { "name": "2 star", "count": 300 },
-         { "name": "3 star", "count": 800 },
-         { "name": "4 star", "count": 900 },
-         { "name": "5 star", "count": 800 }
-      ]
-   },
-   {
-      "id": 15,
-      "image": "https://i.ibb.co.com/1tpzSmLg/demo-app-3.webp",
-      "title": "SecureLock",
-      "companyName": "SafeNet",
-      "description": "Protect your data",
-      "size": 40,
-      "reviews": 6700,
-      "ratingAvg": 4.5,
-      "downloads": 33,
-      "ratings": [
-         { "name": "1 star", "count": 300 },
-         { "name": "2 star", "count": 400 },
-         { "name": "3 star", "count": 1000 },
-         { "name": "4 star", "count": 2000 },
-         { "name": "5 star", "count": 3000 }
-      ]
-   },
-   {
-      "id": 16,
-      "image": "https://i.ibb.co.com/1tpzSmLg/demo-app-3.webp",
-      "title": "MapGo",
-      "companyName": "GeoTech",
-      "description": "Navigate easily",
-      "size": 85,
-      "reviews": 9100,
-      "ratingAvg": 4.3,
-      "downloads": 77,
-      "ratings": [
-         { "name": "1 star", "count": 400 },
-         { "name": "2 star", "count": 600 },
-         { "name": "3 star", "count": 1800 },
-         { "name": "4 star", "count": 3200 },
-         { "name": "5 star", "count": 3100 }
-      ]
-   },
-   {
-      "id": 17,
-      "image": "https://i.ibb.co.com/1tpzSmLg/demo-app-3.webp",
-      "title": "MailPro",
-      "companyName": "Inbox Ltd",
-      "description": "Smart email client",
-      "size": 50,
-      "reviews": 4800,
-      "ratingAvg": 4.2,
-      "downloads": 26,
-      "ratings": [
-         { "name": "1 star", "count": 300 },
-         { "name": "2 star", "count": 500 },
-         { "name": "3 star", "count": 900 },
-         { "name": "4 star", "count": 1600 },
-         { "name": "5 star", "count": 1500 }
-      ]
-   },
-   {
-      "id": 18,
-      "image": "https://i.ibb.co.com/1tpzSmLg/demo-app-3.webp",
-      "title": "MoneyTrack",
-      "companyName": "BudgetPro",
-      "description": "Manage your expenses",
-      "size": 45,
-      "reviews": 5300,
-      "ratingAvg": 4.4,
-      "downloads": 41,
-      "ratings": [
-         { "name": "1 star", "count": 200 },
-         { "name": "2 star", "count": 300 },
-         { "name": "3 star", "count": 1000 },
-         { "name": "4 star", "count": 2000 },
-         { "name": "5 star", "count": 1800 }
-      ]
-   },
-   {
-      "id": 19,
-      "image": "https://i.ibb.co.com/1tpzSmLg/demo-app-3.webp",
-      "title": "PodStream",
-      "companyName": "AudioWave",
-      "description": "Listen to podcasts",
-      "size": 55,
-      "reviews": 6100,
-      "ratingAvg": 4.3,
-      "downloads": 52,
-      "ratings": [
-         { "name": "1 star", "count": 300 },
-         { "name": "2 star", "count": 400 },
-         { "name": "3 star", "count": 1200 },
-         { "name": "4 star", "count": 2000 },
-         { "name": "5 star", "count": 2200 }
-      ]
-   },
-   {
-      "id": 20,
-      "image": "https://i.ibb.co.com/1tpzSmLg/demo-app-3.webp",
-      "title": "CloudSync",
-      "companyName": "DataCore",
-      "description": "Sync files securely",
-      "size": 95,
-      "reviews": 8800,
-      "ratingAvg": 4.5,
-      "downloads": 63,
-      "ratings": [
-         { "name": "1 star", "count": 400 },
-         { "name": "2 star", "count": 600 },
-         { "name": "3 star", "count": 1500 },
-         { "name": "4 star", "count": 3000 },
-         { "name": "5 star", "count": 3300 }
       ]
    }
 ]

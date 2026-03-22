@@ -51,7 +51,10 @@ const App = () => {
                </div>
                <div className="grid grid-cols-4 gap-4 mx-20 my-10">
                   {filteredApps.map((appData) => (
-                     <Link to={"/app-details"} className="card bg-base-100 w-80 shadow-sm m-2">
+                     <Link
+                        to={`/app-details/${appData.id}`}
+                        className="card bg-base-100 w-80 shadow-sm m-2"
+                     >
                         <figure>
                            <img className="p-3" src={appData.image} alt={appData.title} />
                         </figure>

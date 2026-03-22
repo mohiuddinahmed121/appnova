@@ -9,12 +9,13 @@ import Root from "./components/Root";
 import App from "./components/App";
 import Installation from "./components/Installation";
 import AppDetails from "./components/AppDetails";
+import ErrorPage from "./components/ErrorPage";
 
 const router = createBrowserRouter([
    {
       path: "/",
       element: <Root></Root>,
-      //errorElement: <ErrorPage></ErrorPage>,
+      errorElement: <ErrorPage></ErrorPage>,
       children: [
          {
             path: "/",
@@ -30,8 +31,9 @@ const router = createBrowserRouter([
             element: <Installation></Installation>,
          },
          {
-            path: "/app-details",
+            path: "/app-details/:appId",
             element: <AppDetails></AppDetails>,
+            loader: () => fetch("../appData.json"),
          },
       ],
    },
