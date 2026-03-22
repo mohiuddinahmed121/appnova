@@ -4,7 +4,7 @@
       "image": "https://i.ibb.co.com/1tpzSmLg/demo-app-3.webp",
       "title": "ChatFlow",
       "companyName": "NovaTech",
-      "description": "ChatFlow is a secure and lightning-fast messaging application designed for seamless communication. Connect with friends, family, and teams using real-time chat, voice messages, and media sharing. With end-to-end encryption and a clean user interface, ChatFlow ensures both privacy and performance for everyday conversations.",
+      "description": "ChatFlow is a modern messaging platform built for fast, secure, and seamless communication. Connect with friends, family, and teams through real-time messaging, voice notes, and media sharing. With end-to-end encryption, customizable themes, and group chat features, ChatFlow ensures both privacy and flexibility for everyday use.",
       "size": 45,
       "reviews": 12000,
       "ratingAvg": 4.5,
@@ -22,7 +22,7 @@
       "image": "https://i.ibb.co.com/rKBj0gqm/demo-app-2.webp",
       "title": "BeatBox",
       "companyName": "SoundLab",
-      "description": "BeatBox is your ultimate music streaming companion, offering millions of tracks across all genres. Discover new artists, create personalized playlists, and enjoy high-quality audio streaming anytime, anywhere. Its smart recommendation system ensures you always find the perfect soundtrack for your mood.",
+      "description": "BeatBox delivers an immersive music streaming experience with millions of songs across all genres. Create playlists, discover trending music, and enjoy personalized recommendations based on your listening habits. With offline downloads and high-quality audio, BeatBox keeps your music with you anytime, anywhere.",
       "size": 60,
       "reviews": 9800,
       "ratingAvg": 4.3,
@@ -40,7 +40,7 @@
       "image": "https://i.ibb.co.com/Dfp3VN9Z/demo-app-5.webp",
       "title": "BattleZone",
       "companyName": "GameCore",
-      "description": "BattleZone delivers an intense multiplayer gaming experience with stunning graphics and smooth gameplay. Compete with players worldwide, unlock powerful weapons, and dominate the battlefield. Regular updates and events keep the action fresh and exciting for all players.",
+      "description": "BattleZone is an action-packed multiplayer game offering intense combat experiences with players worldwide. Unlock powerful weapons, customize characters, and engage in thrilling battles. With high-quality graphics and regular updates, the game keeps players engaged with new missions and challenges.",
       "size": 120,
       "reviews": 15000,
       "ratingAvg": 4.7,
@@ -58,7 +58,7 @@
       "image": "https://i.ibb.co.com/1tpzSmLg/demo-app-3.webp",
       "title": "ShopEase",
       "companyName": "RetailHub",
-      "description": "ShopEase makes online shopping simple, fast, and enjoyable. Browse thousands of products, compare prices, and enjoy secure checkout with multiple payment options. With personalized recommendations and fast delivery tracking, your shopping experience becomes effortless.",
+      "description": "ShopEase makes online shopping simple and enjoyable by offering a wide range of products with competitive prices. Browse categories, compare items, and complete secure transactions in seconds. With personalized recommendations and fast delivery tracking, ShopEase enhances your shopping experience.",
       "size": 70,
       "reviews": 8700,
       "ratingAvg": 4.2,
@@ -71,13 +71,12 @@
          { "name": "5 star", "count": 2900 }
       ]
    },
-
    {
       "id": 5,
       "image": "https://i.ibb.co.com/1tpzSmLg/demo-app-3.webp",
       "title": "FitTrack",
       "companyName": "HealthPro",
-      "description": "FitTrack helps you stay on top of your fitness journey by tracking workouts, calories, and daily activity. Set goals, monitor progress, and get personalized insights to improve your health. Whether you're a beginner or a fitness enthusiast, FitTrack keeps you motivated.",
+      "description": "FitTrack is a comprehensive fitness companion that helps you monitor workouts, track calories, and stay active throughout the day. Set goals, analyze progress, and receive insights to improve your health. Whether you're a beginner or a pro, FitTrack keeps you motivated.",
       "size": 55,
       "reviews": 6200,
       "ratingAvg": 4.4,
@@ -90,13 +89,12 @@
          { "name": "5 star", "count": 2700 }
       ]
    },
-
    {
       "id": 6,
       "image": "https://i.ibb.co.com/1tpzSmLg/demo-app-3.webp",
       "title": "Foodie",
       "companyName": "EatNow",
-      "description": "Foodie lets you order your favorite meals from top restaurants in just a few taps. Enjoy fast delivery, live tracking, and exclusive deals. Whether it's breakfast, lunch, or dinner, Foodie brings delicious food right to your doorstep.",
+      "description": "Foodie connects you with top restaurants in your area, making food ordering fast and easy. Browse menus, place orders, and track deliveries in real time. Enjoy exclusive discounts and reliable service that brings delicious meals right to your doorstep.",
       "size": 65,
       "reviews": 11000,
       "ratingAvg": 4.1,
@@ -109,13 +107,12 @@
          { "name": "5 star", "count": 3900 }
       ]
    },
-
    {
       "id": 7,
       "image": "https://i.ibb.co.com/1tpzSmLg/demo-app-3.webp",
       "title": "LearnHub",
       "companyName": "EduTech",
-      "description": "LearnHub is an online learning platform offering courses in programming, design, business, and more. Learn at your own pace with expert instructors, interactive lessons, and real-world projects. Perfect for students and professionals alike.",
+      "description": "LearnHub offers a wide variety of online courses designed to help users build new skills. With expert instructors, interactive lessons, and practical assignments, it provides an engaging learning experience for students and professionals.",
       "size": 80,
       "reviews": 5400,
       "ratingAvg": 4.6,
@@ -128,13 +125,12 @@
          { "name": "5 star", "count": 3000 }
       ]
    },
-
    {
       "id": 8,
       "image": "https://i.ibb.co.com/1tpzSmLg/demo-app-3.webp",
       "title": "TripMate",
       "companyName": "TravelGo",
-      "description": "TripMate helps you plan and organize your trips with ease. Discover destinations, book accommodations, and create itineraries all in one place. Travel smarter with recommendations and real-time updates.",
+      "description": "TripMate simplifies travel planning by helping you organize trips, book stays, and explore destinations. Get personalized travel suggestions, real-time updates, and itinerary management tools in one place.",
       "size": 90,
       "reviews": 7000,
       "ratingAvg": 4.3,
@@ -145,6 +141,234 @@
          { "name": "3 star", "count": 1200 },
          { "name": "4 star", "count": 2200 },
          { "name": "5 star", "count": 2800 }
+      ]
+   },
+
+   {
+      "id": 9,
+      "image": "https://i.ibb.co.com/1tpzSmLg/demo-app-3.webp",
+      "title": "PaySafe",
+      "companyName": "FinTech Ltd",
+      "description": "PaySafe offers secure and convenient digital payment solutions for everyday transactions. Send money, pay bills, and manage finances with ease using advanced security and real-time notifications.",
+      "size": 50,
+      "reviews": 9500,
+      "ratingAvg": 4.0,
+      "downloads": 55,
+      "ratings": [
+         { "name": "1 star", "count": 1000 },
+         { "name": "2 star", "count": 1200 },
+         { "name": "3 star", "count": 2000 },
+         { "name": "4 star", "count": 2500 },
+         { "name": "5 star", "count": 2800 }
+      ]
+   },
+
+   {
+      "id": 10,
+      "image": "https://i.ibb.co.com/1tpzSmLg/demo-app-3.webp",
+      "title": "SnapEdit",
+      "companyName": "PhotoLab",
+      "description": "SnapEdit is a powerful photo editing tool that allows users to enhance images with filters, effects, and advanced editing features. Create stunning visuals and share them instantly.",
+      "size": 75,
+      "reviews": 8200,
+      "ratingAvg": 4.5,
+      "downloads": 67,
+      "ratings": [
+         { "name": "1 star", "count": 300 },
+         { "name": "2 star", "count": 400 },
+         { "name": "3 star", "count": 1000 },
+         { "name": "4 star", "count": 2800 },
+         { "name": "5 star", "count": 3700 }
+      ]
+   },
+
+   {
+      "id": 11,
+      "image": "https://i.ibb.co.com/1tpzSmLg/demo-app-3.webp",
+      "title": "StreamX",
+      "companyName": "MediaHub",
+      "description": "StreamX offers unlimited access to movies, TV shows, and videos in high quality. Enjoy seamless streaming, personalized recommendations, and offline viewing features.",
+      "size": 110,
+      "reviews": 13400,
+      "ratingAvg": 4.4,
+      "downloads": 88,
+      "ratings": [
+         { "name": "1 star", "count": 500 },
+         { "name": "2 star", "count": 700 },
+         { "name": "3 star", "count": 2000 },
+         { "name": "4 star", "count": 4000 },
+         { "name": "5 star", "count": 6200 }
+      ]
+   },
+
+   {
+      "id": 12,
+      "image": "https://i.ibb.co.com/1tpzSmLg/demo-app-3.webp",
+      "title": "WeatherNow",
+      "companyName": "SkyTech",
+      "description": "WeatherNow provides accurate and real-time weather forecasts for any location. Stay updated with temperature, humidity, and weather alerts to plan your day effectively.",
+      "size": 30,
+      "reviews": 4300,
+      "ratingAvg": 4.2,
+      "downloads": 14,
+      "ratings": [
+         { "name": "1 star", "count": 200 },
+         { "name": "2 star", "count": 300 },
+         { "name": "3 star", "count": 700 },
+         { "name": "4 star", "count": 1500 },
+         { "name": "5 star", "count": 1600 }
+      ]
+   },
+
+   {
+      "id": 13,
+      "image": "https://i.ibb.co.com/1tpzSmLg/demo-app-3.webp",
+      "title": "NoteMaster",
+      "companyName": "Productive Inc",
+      "description": "NoteMaster helps you organize thoughts, ideas, and tasks efficiently. Create notes, set reminders, and manage your daily workflow with a clean and intuitive interface.",
+      "size": 25,
+      "reviews": 5200,
+      "ratingAvg": 4.6,
+      "downloads": 11,
+      "ratings": [
+         { "name": "1 star", "count": 100 },
+         { "name": "2 star", "count": 200 },
+         { "name": "3 star", "count": 600 },
+         { "name": "4 star", "count": 1800 },
+         { "name": "5 star", "count": 2500 }
+      ]
+   },
+
+   {
+      "id": 14,
+      "image": "https://i.ibb.co.com/1tpzSmLg/demo-app-3.webp",
+      "title": "PlanIt",
+      "companyName": "OrganizeMe",
+      "description": "PlanIt is a smart scheduling app designed to help you manage tasks, meetings, and events. Stay organized and boost productivity with reminders and calendar integration.",
+      "size": 35,
+      "reviews": 3000,
+      "ratingAvg": 4.1,
+      "downloads": 20,
+      "ratings": [
+         { "name": "1 star", "count": 200 },
+         { "name": "2 star", "count": 300 },
+         { "name": "3 star", "count": 800 },
+         { "name": "4 star", "count": 900 },
+         { "name": "5 star", "count": 800 }
+      ]
+   },
+
+   {
+      "id": 15,
+      "image": "https://i.ibb.co.com/1tpzSmLg/demo-app-3.webp",
+      "title": "SecureLock",
+      "companyName": "SafeNet",
+      "description": "SecureLock provides advanced security features to protect your data and privacy. Lock apps, secure files, and monitor suspicious activities with ease.",
+      "size": 40,
+      "reviews": 6700,
+      "ratingAvg": 4.5,
+      "downloads": 33,
+      "ratings": [
+         { "name": "1 star", "count": 300 },
+         { "name": "2 star", "count": 400 },
+         { "name": "3 star", "count": 1000 },
+         { "name": "4 star", "count": 2000 },
+         { "name": "5 star", "count": 3000 }
+      ]
+   },
+
+   {
+      "id": 16,
+      "image": "https://i.ibb.co.com/1tpzSmLg/demo-app-3.webp",
+      "title": "MapGo",
+      "companyName": "GeoTech",
+      "description": "MapGo is a navigation app that helps you find routes, explore locations, and travel efficiently. Get real-time directions and traffic updates.",
+      "size": 85,
+      "reviews": 9100,
+      "ratingAvg": 4.3,
+      "downloads": 77,
+      "ratings": [
+         { "name": "1 star", "count": 400 },
+         { "name": "2 star", "count": 600 },
+         { "name": "3 star", "count": 1800 },
+         { "name": "4 star", "count": 3200 },
+         { "name": "5 star", "count": 3100 }
+      ]
+   },
+
+   {
+      "id": 17,
+      "image": "https://i.ibb.co.com/1tpzSmLg/demo-app-3.webp",
+      "title": "MailPro",
+      "companyName": "Inbox Ltd",
+      "description": "MailPro is a smart email client that helps you manage emails efficiently with advanced filters, spam protection, and a clean interface.",
+      "size": 50,
+      "reviews": 4800,
+      "ratingAvg": 4.2,
+      "downloads": 26,
+      "ratings": [
+         { "name": "1 star", "count": 300 },
+         { "name": "2 star", "count": 500 },
+         { "name": "3 star", "count": 900 },
+         { "name": "4 star", "count": 1600 },
+         { "name": "5 star", "count": 1500 }
+      ]
+   },
+
+   {
+      "id": 18,
+      "image": "https://i.ibb.co.com/1tpzSmLg/demo-app-3.webp",
+      "title": "MoneyTrack",
+      "companyName": "BudgetPro",
+      "description": "MoneyTrack helps you manage expenses, track spending, and plan budgets effectively. Gain financial insights and improve savings habits.",
+      "size": 45,
+      "reviews": 5300,
+      "ratingAvg": 4.4,
+      "downloads": 41,
+      "ratings": [
+         { "name": "1 star", "count": 200 },
+         { "name": "2 star", "count": 300 },
+         { "name": "3 star", "count": 1000 },
+         { "name": "4 star", "count": 2000 },
+         { "name": "5 star", "count": 1800 }
+      ]
+   },
+
+   {
+      "id": 19,
+      "image": "https://i.ibb.co.com/1tpzSmLg/demo-app-3.webp",
+      "title": "PodStream",
+      "companyName": "AudioWave",
+      "description": "PodStream lets you explore and listen to thousands of podcasts across various topics. Stay informed and entertained with curated audio content.",
+      "size": 55,
+      "reviews": 6100,
+      "ratingAvg": 4.3,
+      "downloads": 52,
+      "ratings": [
+         { "name": "1 star", "count": 300 },
+         { "name": "2 star", "count": 400 },
+         { "name": "3 star", "count": 1200 },
+         { "name": "4 star", "count": 2000 },
+         { "name": "5 star", "count": 2200 }
+      ]
+   },
+
+   {
+      "id": 20,
+      "image": "https://i.ibb.co.com/1tpzSmLg/demo-app-3.webp",
+      "title": "CloudSync",
+      "companyName": "DataCore",
+      "description": "CloudSync allows you to store, sync, and access files securely across multiple devices. Enjoy fast uploads, reliable backups, and seamless file sharing.",
+      "size": 95,
+      "reviews": 8800,
+      "ratingAvg": 4.5,
+      "downloads": 63,
+      "ratings": [
+         { "name": "1 star", "count": 400 },
+         { "name": "2 star", "count": 600 },
+         { "name": "3 star", "count": 1500 },
+         { "name": "4 star", "count": 3000 },
+         { "name": "5 star", "count": 3300 }
       ]
    }
 ]
