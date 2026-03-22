@@ -21,7 +21,7 @@ const App = () => {
 
          {filteredApps.length > 0 ? (
             <div className="">
-               <div className="flex justify-between my-5 mx-20">
+               <div className="md:flex justify-between my-5 mx-20">
                   <h3 className="font-bold">({filteredApps.length}) Apps Found</h3>
                   <label className="input">
                      <svg
@@ -49,7 +49,7 @@ const App = () => {
                      />
                   </label>
                </div>
-               <div className="grid grid-cols-4 gap-4 mx-20 my-10">
+               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 md:mx-20 my-10">
                   {filteredApps.map((appData) => (
                      <Link
                         to={`/app-details/${appData.id}`}

@@ -19,7 +19,7 @@ const Banner = () => {
                and more exciting. <br />
                Our goal is to turn your ideas into digital experiences that truly make an impact.
             </p>
-            <div className="flex gap-4">
+            <div className="md:flex gap-4">
                <a href="https://play.google.com/store/apps?hl=en" target="_blank" className="btn">
                   <IoLogoGooglePlaystore />
                   Google Play
@@ -37,7 +37,7 @@ const Banner = () => {
          </div>
          <div className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white py-12 px-8 text-center">
             <h1 className="text-4xl font-bold">Trusted by Millions, Built for You</h1>
-            <div className="flex justify-center items-center gap-20 mt-8">
+            <div className="lg:flex justify-center items-center md:gap-20 mt-8">
                <div>
                   <p>Total Downloads</p>
                   <h1 className="text-5xl font-bold my-2">29.6M</h1>

@@ -46,9 +46,9 @@ const Installation = () => {
                   <div>
                      <img className="size-10 rounded-box" src={app.image} alt={app.title} />
                   </div>
-                  <div className="list-col-grow">
+                  <div className="md:list-col-grow">
                      <div className="font-bold text-xl mb-1">{app.title}</div>
-                     <div className="text-xs uppercase font-semibold opacity-60 flex gap-3">
+                     <div className="text-xs uppercase font-semibold opacity-60 md:flex gap-3">
                         <div className="flex">
                            <img className="w-4 h-4 mr-1" src={iconDownload} alt="Downloads" />
                            <p>{app.downloads}M</p>

@@ -41,7 +41,7 @@ const AppDetails = () => {
 
    return (
       <div className="mx-20 my-20">
-         <div className="card card-side bg-base-100 shadow-sm my-5">
+         <div className="card md:card-side bg-base-100 shadow-sm my-5">
             <figure>
                <img className="" src={app.image} alt={app.title} />
             </figure>
@@ -51,7 +51,7 @@ const AppDetails = () => {
                   <p>Developed by appNova.io</p>
                </div>
                <hr />
-               <div className="flex justify-start gap-10 my-3">
+               <div className="md:flex justify-start gap-10 my-3">
                   <div>
                      <img src={iconDownload} alt="Downloads" />
                      <p>Downloads</p>

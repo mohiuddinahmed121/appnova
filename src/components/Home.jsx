@@ -20,7 +20,7 @@ const Home = () => {
                <h1 className="text-4xl font-bold mb-2">Trending Apps</h1>
                <p className="mb-2">Explore All Trending Apps on the Market developed by us</p>
             </div>
-            <div className="grid grid-cols-4 gap-4 mx-20">
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 md:mx-20 mx-5">
                {appsData.slice(0, 8).map((appData) => (
                   <Link
                      to={`/app-details/${appData.id}`}
