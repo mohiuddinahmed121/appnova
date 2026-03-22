@@ -14,8 +14,29 @@ const AppDetails = () => {
    const app = appsData.find((app) => app.id === appIdInt);
 
    const handleInstalled = () => {
-      toast.success("App Installed Successfully!");
       setIsSelected(true);
+      saveAppList(appIdInt);
+   };
+
+   const getStoredAppList = () => {
+      const storedAppList = localStorage.getItem("app-List");
+      if (storedAppList) {
+         return JSON.parse(storedAppList);
+      }
+      return [];
+   };
+
+   const saveAppList = (id) => {
+      const storedAppList = getStoredAppList();
+      const isExists = storedAppList.find((appId) => appId === id);
+
+      if (!isExists) {
+         storedAppList.push(id);
+         localStorage.setItem("app-List", JSON.stringify(storedAppList));
+         toast("added to App List  successfully");
+      } else {
+         toast("data already exists");
+      }
    };
 
    return (
